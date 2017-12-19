@@ -29,11 +29,9 @@ int main(void)
                 printf("= %f\n", init -= new);
                 break;
             case '*':
-                printf("%g %c %g", new, operator, init);
                 printf("= %f\n", init *= new);
                 break;
             case '/':
-                printf("%g %c %g", new, operator, init);
                 printf("= %f\n", init /= new);
                 break;
             default:
