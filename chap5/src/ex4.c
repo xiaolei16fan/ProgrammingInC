@@ -32,6 +32,11 @@ int main(void)
                 printf("= %f\n", init *= new);
                 break;
             case '/':
+                if (new == 0)
+                {
+                    printf("Divised by zero. Continue.");
+                    continue;
+                }
                 printf("= %f\n", init /= new);
                 break;
             default:
